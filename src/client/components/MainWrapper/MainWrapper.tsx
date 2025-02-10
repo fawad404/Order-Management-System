@@ -16,7 +16,7 @@ export const MainWrapper: React.FC<Props> = ({ children }) => {
     <S.BodyWrapper data-test-id="main-body-wrapper">
       <S.Aside>
         <S.LogoWrapper>
-          <S.Logo src={"/mayoor_logo.svg"} />
+          <S.Logo src={""} alt="Logo"/>
         </S.LogoWrapper>
         <MainMenu />
       </S.Aside>

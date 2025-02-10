@@ -22,7 +22,7 @@ export const PageTitle: React.FC<Props> = ({ children, doNotUseAsTitle }) => {
     <>
       <Head>
         {typeof children === "string" && !doNotUseAsTitle && (
-          <title>{children} | mayoor</title>
+          <title>{children} | fawad</title>
         )}
       </Head>
       <PageTitleH1>{children}</PageTitleH1>

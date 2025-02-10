@@ -30,7 +30,7 @@ export const DetailCustomer: React.FC<{ customerId: string }> = ({
     useDeleteCustomerMutation();
 
   useEffect(() => {
-    document.title = `${data?.getCustomer?.name} | mayoor`;
+    document.title = `${data?.getCustomer?.name} | fawad`;
   }, [data?.getCustomer]);
 
   const submitHandler = async (values: UserFormValues) => {

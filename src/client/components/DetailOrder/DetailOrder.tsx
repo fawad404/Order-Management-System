@@ -40,7 +40,7 @@ export const DetailOrder: React.FC<{ orderNumber: number }> = ({
   });
 
   useEffect(() => {
-    document.title = `${orderTitle} | mayoor`;
+    document.title = `${orderTitle} | fawad`;
   }, [orderTitle]);
 
   const initialValues = mapToOrderFormValues(data);

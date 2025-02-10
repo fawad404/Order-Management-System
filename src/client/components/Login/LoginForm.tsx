@@ -77,7 +77,7 @@ export const LoginForm: React.FC = () => {
   return (
     <CenteredWrapper>
       <S.LoginWrapper onSubmit={handleSubmit}>
-        <S.Logo src={"/mayoor_logo.svg"} />
+        <S.Logo src={""} alt="Logo" />
         <S.FormItemStyled
           validateStatus={touched.username && errors.username ? "error" : ""}
           help={touched.username && errors.username}
